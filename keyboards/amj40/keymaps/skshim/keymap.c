@@ -109,7 +109,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     [_RAISE] = KEYMAP( \
         LSFT(KC_GRV),  _______,    _______,    _______,    _______,    _______,    _______,    KC_MINS,    KC_EQL,    KC_LBRC,    KC_RBRC,    KC_BSLS, \
-		_______,  LSFT(KC_BSLS), LSFT(KC_QUOT), LSFT(KC_MINS) , LSFT(KC_EQL) , _______,   _______, _______,  LSFT(KC_LBRC), LSFT(KC_RBRC), KC_ENT, \
+		_______,  LSFT(KC_BSLS), LSFT(KC_QUOT), LSFT(KC_MINS) , LSFT(KC_EQL) , _______,   _______, KC_PGDOWN,  KC_PGUP, LSFT(KC_LBRC), LSFT(KC_RBRC), \
 		KC_LSFT,   _______,   _______,   _______,  _______,  _______,  _______, KC_COMM, KC_DOT, KC_SLSH, LSFT(KC_SLSH), \
 		KC_LCTL, KC_LGUI, KC_LALT, KC_SPC, KC_TRNS, _______, _______, _______ \
 		),
