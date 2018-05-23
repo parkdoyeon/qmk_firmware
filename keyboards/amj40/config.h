@@ -66,18 +66,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Underlight configuration
  */
-/*
 #define RGB_DI_PIN D3
 #define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 4     // Number of LEDs
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
-*/
-#define MOUSEKEY_INTERVAL       20
+
+#define MOUSEKEY_INTERVAL       16
 #define MOUSEKEY_DELAY          0
-#define MOUSEKEY_TIME_TO_MAX    5
-#define MOUSEKEY_MAX_SPEED      2
+#define MOUSEKEY_TIME_TO_MAX    60
+#define MOUSEKEY_MAX_SPEED      7
 #define MOUSEKEY_WHEEL_DELAY 0
 
 #define TAPPING_TERM 180

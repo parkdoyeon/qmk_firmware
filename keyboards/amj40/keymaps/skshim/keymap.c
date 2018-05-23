@@ -241,8 +241,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case ADJUST:
       if (record->event.pressed) {
         layer_on(_ADJUST);
+        update_tri_layer(_LOWER, _RAISE, _ADJUST);
       } else {
         layer_off(_ADJUST);
+        update_tri_layer(_LOWER, _RAISE, _ADJUST);
       }
       return false;
       break;
