@@ -98,4 +98,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_MACRO
 //#define NO_ACTION_FUNCTION
 
+#define USB_MAX_POWER_CONSUMPTION 50
+
 #endif

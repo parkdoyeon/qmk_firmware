@@ -3,6 +3,8 @@
 
 #include "../../config.h"
 
+#define USB_MAX_POWER_CONSUMPTION 50
+
 // place overrides here
 
 #endif
